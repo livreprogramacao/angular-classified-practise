@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
+import { HomeModule } from './home/home.module';
 import { LoginModule } from './login/login.module';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { LoginModule } from './login/login.module';
     BrowserModule,
     FormsModule,
     HttpModule,
+    HomeModule,
     LoginModule,
     AppRoutingModule
   ],
