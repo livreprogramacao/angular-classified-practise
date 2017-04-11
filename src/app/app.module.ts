@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
+import { LoginModule } from './login/login.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +18,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    LoginModule,
     AppRoutingModule
   ],
   providers: [],
